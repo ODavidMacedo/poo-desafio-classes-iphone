@@ -1,24 +1,3 @@
-classDiagram
-    Iphone --|> ReprodutorMusical
-    Iphone --|> AparelhoTelefonico
-    Iphone --|> NavegadorInternet
-    
-    class ReprodutorMusical{
-      
-      +tocar()
-      +pausar()
-      +selecionarMusica(String musica)
-    }
-    class AparelhoTelefonico{
-      
-      +ligar(String numero)
-      +atender()
-      +iniciarCorreioVoz()
-      
-    }
-    class NavegadorInternet{
-      
-      +exibirPagina(String URL)
-      +adicionarNovaAba()
-      +atualizarPagina()      
-    }
+# Diagrama de Classes IPhone
+
+![diagrama de classes](https://github.com/user-attachments/assets/87ebc72c-b78c-475e-be0d-c63017f84e90)
